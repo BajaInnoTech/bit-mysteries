@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="113.87574mm"
+   height="117.30597mm"
+   viewBox="0 0 113.87574 117.30597"
+   version="1.1"
+   id="svg1"
+   xmlSpace="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlnsSvg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><rect
+       x="-351.47214"
+       y="-97.631157"
+       width="240.17264"
+       height="197.21494"
+       id="rect67-2-0-5" /></defs><g
+     id="layer1"
+     transform="translate(-37.84168,-158.8099)"><rect
+       style="fill:#604d4f;fill-opacity:1;stroke:#050a13;stroke-width:1.48337;stroke-dasharray:none"
+       id="rect1-9-4-4"
+       width="112.39238"
+       height="115.82259"
+       x="38.583366"
+       y="159.55157" /><path
+       id="rect1-9-2-9-3"
+       style="fill:#af8225;fill-opacity:1;stroke:#050a13;stroke-width:0.766643;stroke-dasharray:none"
+       d="m 44.754392,165.63984 0.05267,97.77201 h 6.869887 c 0.324535,0 0.585498,0.27399 0.585498,0.61411 v 5.51455 l 92.754173,0.0262 0.0263,-103.90067 z m 22.282987,12.73783 h 55.729901 c 2.34514,0 0.37476,6.09965 1.65337,7.60751 1.55797,1.45266 8.06404,-0.56059 8.06507,1.73279 l 0.0263,58.81324 c 7.9e-4,2.16831 -6.50723,0.1974 -8.09138,1.66555 -1.35697,1.48426 0.62302,8.11448 -1.65336,8.11448 H 67.037403 c -2.2347,0 -0.699814,-7.1081 -1.770282,-8.32495 -1.248482,-1.25733 -8.270784,0.50405 -8.270784,-1.52232 v -58.746 c 0,-2.42491 6.943492,-0.50717 8.387718,-1.73279 1.137191,-1.22501 -0.780552,-7.60751 1.653348,-7.60751 z" /><rect
+       style="fill:#bf8e28;fill-opacity:1;stroke:#050a13;stroke-width:0.70884;stroke-dasharray:none"
+       id="rect2-1-2-8"
+       width="58.603413"
+       height="63.750538"
+       x="66.209824"
+       y="184.5197"
+       ry="15.107617" /><text
+       xmlSpace="preserve"
+       transform="matrix(0.26463797,0,0,0.25192046,164.4487,222.08874)"
+       id="text67-4-7-6"
+       style="font-size:128px;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect67-2-0-5);display:inline;fill:#000000;fill-opacity:1;stroke:#050a13"><tspan
+         x="-351.47266"
+         y="19.745141"
+         id="tspan2"><tspan
+           style="font-family:'DejaVu Math TeX Gyre';-inkscape-font-specification:'DejaVu Math TeX Gyre'"
+           id="tspan1">bit</tspan></tspan></text></g></svg>
