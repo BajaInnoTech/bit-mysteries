@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/bit-mysteries/static/js/main.3c19415a.js",
+    "static/media/board.jpg": "/bit-mysteries/static/media/board.dabfdc2fdf6a38425ff5.jpg",
+    "static/media/favico.svg": "/bit-mysteries/static/media/favico.00aef987d548447af080780ae66f80b8.svg",
+    "index.html": "/bit-mysteries/index.html",
+    "main.3c19415a.js.map": "/bit-mysteries/static/js/main.3c19415a.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.3c19415a.js"
+  ]
+}
