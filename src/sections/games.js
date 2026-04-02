@@ -17,7 +17,7 @@ function Games() {
                 <CardContent>
                     <Typography variant="h5">Fires In the Crypt - Solo Play Options</Typography>
                     <Typography gutterBottom variant="h6" sx={{color:"secondary.dark"}}>Eduardo del Corral</Typography>
-                    <Typography>An adaptation of Sanglorian's first level adventure into a SOLO/COOP experience. This is a work in progress.</Typography>
+                    <Typography>Fires In the Crypt - Solo Play Options An adaptation of a roleplay adventure for a system known as Orcus RPG. Aimed at new players or those who's character is level 1. This adapatation was made using Markdown.</Typography>
                     <ReactTinyLink
                         cardSize="small"
                         showGraphic={true}

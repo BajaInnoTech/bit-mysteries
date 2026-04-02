@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.js": "/bit-mysteries/static/js/main.3c19415a.js",
+    "main.js": "/bit-mysteries/static/js/main.b3bb96d6.js",
     "static/media/board.jpg": "/bit-mysteries/static/media/board.dabfdc2fdf6a38425ff5.jpg",
+    "static/media/banner.png": "/bit-mysteries/static/media/banner.bb4af3a7edee9501c5d0.png",
+    "static/media/bitLogoDetailed.svg": "/bit-mysteries/static/media/bitLogoDetailed.d550d17450b6885a6ae06ba4fd156138.svg",
     "static/media/favico.svg": "/bit-mysteries/static/media/favico.00aef987d548447af080780ae66f80b8.svg",
     "index.html": "/bit-mysteries/index.html",
-    "main.3c19415a.js.map": "/bit-mysteries/static/js/main.3c19415a.js.map"
+    "main.b3bb96d6.js.map": "/bit-mysteries/static/js/main.b3bb96d6.js.map"
   },
   "entrypoints": [
-    "static/js/main.3c19415a.js"
+    "static/js/main.b3bb96d6.js"
   ]
 }
