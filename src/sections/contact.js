@@ -3,6 +3,7 @@ import { Link, Typography } from '@mui/material';
 function Contact() {
     return (
         <>
+            <br />
             <Typography variant="h3" sx={{ color: "primary.dark"}}>
                 Contact Us
             </Typography>
