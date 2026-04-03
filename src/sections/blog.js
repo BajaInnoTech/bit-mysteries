@@ -1,40 +1,49 @@
-import { ReactTinyLink } from "@artshell/react-tiny-link";
-import { Card, CardContent, Typography } from '@mui/material';
+import { Box, Card, CardContent, CardMedia, Typography } from '@mui/material';
+import FiresInTheCryptPortrait from "../assets/images/FiresInTheCryptPortrait.jpg";
+import itchio from "../assets/images/itchio.svg";
 
 function Blog() {
     return (
         <>
             <br />
-            <Typography variant="h3" sx={{ color: "primary.dark"}}>
+            <Typography gutterBottom variant="h3" sx={{ color: "primary.dark"}}>
                 Blog
             </Typography>
             <Typography>This is BajaInnoTech's game-lounge news feed:</Typography>
             <br />
+
             <Card variant="outlined">
                 <CardContent>
+                    <Box color="primary.dark" component="a" href="https://bitmysteries.itch.io/" sx={{ display:"flex", textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
+                        <CardMedia
+                            component="img"
+                            image={itchio}
+                            alt="Itch.io Icon"
+                            sx={{ paddingRight:3, paddingLeft:3, mr: 2, width:150, alignSelf:"center", justifyContent:"center" }}
+                        />
+                        <Box>
                     <Typography variant="h6">We have an Itch.io website!</Typography>
                     <Typography gutterBottom sx={{color:"secondary.dark"}}>Eduardo del Corral</Typography>
-                    <Typography variant="h5" >Feel free to look us up by clicking the link below:</Typography>
-                    <ReactTinyLink
-                        cardSize="small"
-                        showGraphic={true}
-                        maxLine={2}
-                        minLine={1}
-                        url="https://bitmysteries.itch.io/"
-                    />
+                    <Typography>We plan to place updates, dev insight and other material here.</Typography>
+                        </Box>
+                    </Box>
                 </CardContent>
             </Card>
             <Card variant="outlined">
                 <CardContent>
+                    <Box color="primary.dark" component="a" href="https://github.com/BajaInnoTech/fires-in-the-crypt-solo-play-options" sx={{ display:"flex", textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
+                        <CardMedia
+                            component="img"
+                            image={FiresInTheCryptPortrait}
+                            alt="Fires in the Crypt Portrait"
+                            sx={{ mr: 2, width:200, alignSelf:"center", justifyContent:"center" }}
+                        />
+                        <Box>
                     <Typography variant="h6">We published our first recreational public repository</Typography>
                     <Typography gutterBottom sx={{color:"secondary.dark"}}>Eduardo del Corral</Typography>
                     <Typography>We have publicly shared our work-in-progress. A SOLO/COOP adaptation of Sanglorian's Orcus RPG Retro-Clone First Level Adventure. This is still a work in progress.</Typography>
-                    <ReactTinyLink
-                        showGraphic={true}
-                        maxLine={2}
-                        minLine={1}
-                        url="https://github.com/BajaInnoTech/fires-in-the-crypt-solo-play-options"
-                    />
+                        </Box>
+                    </Box>
                 </CardContent>
             </Card>
         </>

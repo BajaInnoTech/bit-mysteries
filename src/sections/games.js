@@ -1,6 +1,6 @@
-import { Card, CardContent, Typography } from '@mui/material';
-import { ReactTinyLink } from "@artshell/react-tiny-link";
+import { Box, Card, CardContent, CardMedia, Typography } from '@mui/material';
 import board from "../assets/images/board.jpg"
+import FiresInTheCryptPortrait from "../assets/images/FiresInTheCryptPortrait.jpg";
 
 function Games() {
     return (
@@ -15,16 +15,19 @@ function Games() {
             <br />
            <Card variant="outlined">
                 <CardContent>
-                    <Typography variant="h5">Fires In the Crypt - Solo Play Options</Typography>
-                    <Typography gutterBottom variant="h6" sx={{color:"secondary.dark"}}>Eduardo del Corral</Typography>
-                    <Typography>Fires In the Crypt - Solo Play Options An adaptation of a roleplay adventure for a system known as Orcus RPG. Aimed at new players or those who's character is level 1. This adapatation was made using Markdown.</Typography>
-                    <ReactTinyLink
-                        cardSize="small"
-                        showGraphic={true}
-                        maxLine={2}
-                        minLine={1}
-                        url="https://github.com/BajaInnoTech/fires-in-the-crypt-solo-play-options"
-                    />
+                    <Box color="primary.dark" component="a" href="https://github.com/BajaInnoTech/fires-in-the-crypt-solo-play-options" sx={{ display:"flex", textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
+                        <CardMedia
+                            component="img"
+                            image={FiresInTheCryptPortrait}
+                            alt="Fires in the Crypt Portrait"
+                            sx={{ mr: 2, width:200, alignSelf:"center", justifyContent:"center" }}
+                        />
+                        <Box>
+                            <Typography variant="h5">Fires In the Crypt - Solo Play Options</Typography>
+                            <Typography gutterBottom variant="h6" sx={{color:"secondary.dark"}}>Eduardo del Corral</Typography>
+                            <Typography>Fires In the Crypt - Solo Play Options An adaptation of an Orcus RPG adventure by Sanglorian for First Level Characters. This adapatation was made using Markdown.</Typography>
+                        </Box>
+                    </Box>
                 </CardContent>
             </Card>
             <br />
