@@ -59,7 +59,7 @@ function App() {
                         BIT
                     </Typography>
                     <Stack spacing={2} direction="row">
-                        {/* <Button variant="text" sx={{color:'#fff'}} onClick={() => setTarget("mysteries")}>Bit Mysteries</Button> */}
+                        {/* <Button variant="text" sx={{color:'#fff'}} onClick={() => setTarget("mysteries")}>BIT Mysteries</Button> */}
                         <Button variant="text" sx={{color:'#fff'}} onClick={() => setTarget("games")}>Games</Button>
                         <Button variant="text" sx={{color:'#fff'}} onClick={() => setTarget("blog")}>Blog</Button>
                         <Button variant="text" sx={{color:'#fff'}} onClick={() => setTarget("about")}>About Us</Button>

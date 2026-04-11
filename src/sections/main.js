@@ -10,7 +10,7 @@ function Main() {
                 <img src={banner} style={{justifySelf:"center"}} width={"75%"} alt='B.I.T. Logo'/>
                 <div style={{margin:12}} />
             <Typography variant="h3" sx={{ color: "primary.dark" }}>
-                Welcome to BitMysteries by BajaInnoTech!
+                Welcome to BIT Mysteries by BajaInnoTech!
             </Typography>
             </Box>
             <br />

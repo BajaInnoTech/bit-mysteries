@@ -1,6 +1,7 @@
 import { Box, Card, CardContent, CardMedia, Typography } from '@mui/material';
+import DepthRangersPortrait from "../assets/images/DepthRangersMiniature.png";
 import FiresInTheCryptPortrait from "../assets/images/FiresInTheCryptPortrait.jpg";
-import itchio from "../assets/images/itchio.svg";
+import Itchio from "../assets/images/itchio.svg";
 
 function Blog() {
     return (
@@ -14,10 +15,27 @@ function Blog() {
 
             <Card variant="outlined">
                 <CardContent>
+                    <Box color="primary.dark" component="a" href="https://bajainnotech.github.io/depthrangers/DepthRangers.html" sx={{ display:"flex", textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
+                        <CardMedia
+                            component="img"
+                            image={DepthRangersPortrait}
+                            alt="Itch.io Icon"
+                            sx={{ paddingRight:3, paddingLeft:3, mr: 2, width:150, alignSelf:"center", justifyContent:"center" }}
+                        />
+                        <Box>
+                    <Typography variant="h6">Introducing DepthRangers!</Typography>
+                    <Typography gutterBottom sx={{color:"secondary.dark"}}>Eduardo del Corral</Typography>
+                    <Typography>We have created a new RPG System, that we plan to use on our upcoming adventures. Come and check it out!</Typography>
+                        </Box>
+                    </Box>
+                </CardContent>
+            </Card>
+            <Card variant="outlined">
+                <CardContent>
                     <Box color="primary.dark" component="a" href="https://bitmysteries.itch.io/" sx={{ display:"flex", textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
                         <CardMedia
                             component="img"
-                            image={itchio}
+                            image={Itchio}
                             alt="Itch.io Icon"
                             sx={{ paddingRight:3, paddingLeft:3, mr: 2, width:150, alignSelf:"center", justifyContent:"center" }}
                         />
