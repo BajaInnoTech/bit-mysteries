@@ -15,17 +15,34 @@ function Blog() {
 
             <Card variant="outlined">
                 <CardContent>
-                    <Box color="primary.dark" component="a" href="https://bajainnotech.github.io/depthrangers/DepthRangers.html" sx={{ display:"flex", textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
+                    <Box color="primary.dark" component="a" href="https://bitmysteries.itch.io/depthrangers" sx={{ display:"flex", textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
                         <CardMedia
                             component="img"
-                            image={DepthRangersPortrait}
+                            image={Itchio}
                             alt="Itch.io Icon"
                             sx={{ paddingRight:3, paddingLeft:3, mr: 2, width:150, alignSelf:"center", justifyContent:"center" }}
                         />
                         <Box>
                     <Typography variant="h6">Introducing DepthRangers!</Typography>
                     <Typography gutterBottom sx={{color:"secondary.dark"}}>Eduardo del Corral</Typography>
-                    <Typography>We have created a new RPG System, that we plan to use on our upcoming adventures. Come and check it out!</Typography>
+                    <Typography>Our new RPG System is now hosted on Itch.io. Come and check it out!</Typography>
+                        </Box>
+                    </Box>
+                </CardContent>
+            </Card>
+            <Card variant="outlined">
+                <CardContent>
+                    <Box color="primary.dark" component="a" href="https://bajainnotech.github.io/depthrangers/DepthRangers.html" sx={{ display:"flex", textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
+                        <CardMedia
+                            component="img"
+                            image={DepthRangersPortrait}
+                            alt="DepthRangers Portrait"
+                            sx={{ paddingRight:3, paddingLeft:3, mr: 2, width:150, alignSelf:"center", justifyContent:"center" }}
+                        />
+                        <Box>
+                    <Typography variant="h6">Introducing DepthRangers!</Typography>
+                    <Typography gutterBottom sx={{color:"secondary.dark"}}>Eduardo del Corral</Typography>
+                    <Typography>We have created a new RPG System, that we plan to use on our upcoming adventures.</Typography>
                         </Box>
                     </Box>
                 </CardContent>

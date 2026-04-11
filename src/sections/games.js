@@ -26,7 +26,7 @@ function Games() {
                         <Box>
                             <Typography variant="h5">DepthRangers RPG System by BIT Mysteries</Typography>
                             <Typography gutterBottom variant="h6" sx={{color:"secondary.dark"}}>Eduardo del Corral</Typography>
-                            <Typography>an Open Source rules light RPG System focused on fast combat-heavy gameplay. Flexible enough to provide varied experiences, as well as light RPG flavoring.</Typography>
+                            <Typography>An Open Source rules light RPG System focused on fast combat-heavy gameplay. Flexible enough to provide varied experiences, as well as light RPG flavoring.</Typography>
                         </Box>
                     </Box>
                 </CardContent>
