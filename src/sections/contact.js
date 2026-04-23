@@ -25,7 +25,10 @@ function Contact() {
                     Contact Us
                 </Typography>
                 <Typography variant="body2" fontSize={18} gutterBottom>
-                    Are you enjoying our projects? Is there a fix that you'd like us to make? Are you interested in collaboration? Reach out to us at <Link href="mailto:bitmysteries@proton.me">bitmysteries@proton.me</Link>
+                    Are you enjoying our projects? Is there a fix that you'd like us to make? Are you interested in collaboration?
+                </Typography>
+                <Typography variant="body2" fontSize={18} gutterBottom>
+                    Reach out to us at: <Link href="mailto:bitmysteries@proton.me">bitmysteries@proton.me</Link>
                 </Typography>
             </Box>
             <Box
@@ -112,36 +115,6 @@ function Contact() {
                         Tiktok
                     </Link>
                 </Typography>
-                <Typography gutterBottom variant="body1" fontSize={20}>
-                    <Link
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://vimeo.com/user257211227"
-                        sx={{
-                            textDecoration: 'none',
-                        }}
-                    >
-                        <span>
-                            <FontAwesomeIcon icon={faVimeo} fontSize={20} />
-                        </span>
-                        Vimeo
-                    </Link>
-                </Typography>
-                <Typography gutterBottom variant="body1" fontSize={20}>
-                    <Link
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://boardgamegeek.com/profile/BITMysteries"
-                        sx={{
-                            textDecoration: 'none',
-                        }}
-                    >
-                        <span>
-                            <FontAwesomeIcon icon={faBoardGameGeek} fontSize={20} />
-                        </span>
-                        BGG
-                    </Link>
-                </Typography>
             </Box>
 
             <Box
@@ -182,6 +155,38 @@ function Contact() {
                             <FontAwesomeIcon icon={faDiscord} fontSize={20} />
                         </span>
                         Discord
+                    </Link>
+                </Typography>
+                <Typography gutterBottom variant="body1" fontSize={20}>
+                    <Link
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://boardgamegeek.com/profile/BITMysteries"
+                        sx={{
+                            textDecoration: 'none',
+                            color: theme.palette.secondary.main,
+                        }}
+                    >
+                        <span>
+                            <FontAwesomeIcon icon={faBoardGameGeek} fontSize={20} />
+                        </span>
+                        BGG
+                    </Link>
+                </Typography>
+                <Typography gutterBottom variant="body1" fontSize={20}>
+                    <Link
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://vimeo.com/user257211227"
+                        sx={{
+                            textDecoration: 'none',
+                            color: theme.palette.secondary.main,
+                        }}
+                    >
+                        <span>
+                            <FontAwesomeIcon icon={faVimeo} fontSize={20} />
+                        </span>
+                        Vimeo
                     </Link>
                 </Typography>
             </Box>
