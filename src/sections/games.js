@@ -14,7 +14,7 @@ import { faCreativeCommonsSa } from '@fortawesome/free-brands-svg-icons';
 import Board from "../assets/images/board.jpg";
 import DepthRangersPortrait from "../assets/images/DepthRangersMiniature.png";
 import FiresInTheCryptPortrait from "../assets/images/FiresInTheCryptPortrait.jpg";
-import TreasureOfAuralHallCover from "../assets/images/TreasureOfAuralHallCover.svg";
+import TreasureOfAuralHallBetaCover from "../assets/images/TreasureOfAuralHallBetaCover.png";
 
 function Games() {
     const theme = useTheme();
@@ -52,7 +52,7 @@ function Games() {
                         >
                             <CardMedia
                                 component="img"
-                                image={TreasureOfAuralHallCover}
+                                image={TreasureOfAuralHallBetaCover}
                                 alt="DepthRangers Portrait"
                                 sx={{ mr: 2, width:200, alignSelf:"center", justifyContent:"center" }}
                             />

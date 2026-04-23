@@ -8,7 +8,7 @@ import {
 import DepthRangersPortrait from "../assets/images/DepthRangersMiniature.png";
 import FiresInTheCryptPortrait from "../assets/images/FiresInTheCryptPortrait.jpg";
 import Itchio from "../assets/images/itchio.svg";
-import TreasureOfAuralHallCover from "../assets/images/TreasureOfAuralHallCover.svg";
+import TreasureOfAuralHallBetaCover from "../assets/images/TreasureOfAuralHallBetaCover.png";
 
 function Blog() {
     return (
@@ -41,7 +41,7 @@ function Blog() {
                     <Box color="primary.dark" component="a" href="https://github.com/BajaInnoTech/hunt_for_the_treasure_of_aural_hall" sx={{ display:"flex", textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
                         <CardMedia
                             component="img"
-                            image={TreasureOfAuralHallCover}
+                            image={TreasureOfAuralHallBetaCover}
                             alt="Itch.io Icon"
                             sx={{ paddingRight:3, paddingLeft:3, mr: 2, width:150, alignSelf:"center", justifyContent:"center" }}
                         />
