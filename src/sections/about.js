@@ -1,6 +1,7 @@
 import {
     Avatar,
     Box,
+    Container,
     Card,
     CardContent,
     Typography,
@@ -10,6 +11,9 @@ import { useTheme } from '@mui/material/styles';
 import {
     LinkedIn as LinkedInIcon,
 } from '@mui/icons-material';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faJs } from '@fortawesome/free-brands-svg-icons';
+import { faTypescript } from '@fortawesome/free-brands-svg-icons';
 import eduardo from '../assets/images/eduardo.jpeg';
 import hyunjin from '../assets/images/hyunjin.jpeg';
 import victor from '../assets/images/victor.jpeg';
@@ -18,29 +22,31 @@ function About() {
     const theme = useTheme();
 
     return (
-        <>
-            <br />
-            <Typography variant="h3" sx={{ color: "primary.dark"}}>
-                About Us
-            </Typography>
-            <br />
-            <Typography>BajaInnoTech was founded by Eduardo del Corral & Hyunjin Oh in 2026, from two years of entrepreneural experience and 9 years of professional collaboration. Victor Serrano Jumped onboard this project before we had finished cristalizing our vision.</Typography>
-            <br />
-            <Box>
-                <Typography variant="h5">Bios</Typography>
+        <Container>
+            <Box sx={{ display: 'flex', flexDirection: 'column', mt: 3 }}>
+                <Typography variant="h3" sx={{ color: "primary.dark"}} gutterBottom>
+                    About Us
+                </Typography>
+                <Typography variant="body2" fontSize={18} gutterBottom>
+                    BajaInnoTech was founded by Eduardo del Corral & Hyunjin Oh in 2026, from two years of entrepreneural experience and 9 years of professional collaboration. Victor Serrano Jumped onboard this project before we had finished cristalizing our vision.
+                </Typography>
+            </Box>
+            <Box sx={{ mt: 4 }}>
+                <Typography variant="h5">Members</Typography>
                 <Box sx={{
                     display: 'flex',
+                    flexDirection: { xs: 'column', md: 'row' },
                     alignItems: 'stretch',
                     justifyContent: 'center',
                 }}>
-                    <Card 
+                    <Card
                         variant="outlined"
                         sx={{
                             border: `1px solid ${theme.palette.primary.main}`,
                             borderRadius: 2,
                             margin: 1,
                             flexGrow: 1,
-                            width: '30%',
+                            width: { md: '30%', xs: '100%' },
                         }}
                     >
                         <CardContent>
@@ -61,9 +67,13 @@ function About() {
                                 </IconButton>
                             </Box>
                             <Box sx={{ pl: 6 }}>
-                                <Typography gutterBottom sx={{color:"secondary.dark"}}>CoFounder CEO, Fullstack focused on BE</Typography>
+                                <Typography gutterBottom sx={{color:"secondary.dark"}}>
+                                    CoFounder CEO, Fullstack focused on BE
+                                </Typography>
                             </Box>
-                            <Typography>Having 14 years as an active developer and 2 years as an entrepreneur, along with Hyunjin Oh Eduardo cofounded BajaInnoTech. He spends his spare time writing, making music, rolling dice, doing martial arts, riding a motorcycle and drinking coffee.</Typography>
+                            <Typography>
+                                Having 14 years as an active developer and 2 years as an entrepreneur, along with Hyunjin, Eduardo cofounded BajaInnoTech. He spends his spare time writing, making music, rolling dice, doing martial arts, riding a motorcycle and drinking coffee.
+                            </Typography>
                         </CardContent>
                     </Card>
                     <Card
@@ -73,7 +83,7 @@ function About() {
                             borderRadius: 2,
                             margin: 1,
                             flexGrow: 1,
-                            width: '30%',
+                            width: { md: '30%', xs: '100%' },
                         }}
                     >
                         <CardContent>
@@ -94,9 +104,13 @@ function About() {
                                 </IconButton>
                             </Box>
                             <Box sx={{ pl: 6 }}>
-                                <Typography gutterBottom sx={{color:"secondary.dark"}}>CoFounder CTO, Fullstack focused on FE</Typography>
+                                <Typography gutterBottom sx={{color:"secondary.dark"}}>
+                                    CoFounder CTO, Fullstack focused on FE
+                                </Typography>
                             </Box>
-                            <Typography>Having a decade in the industry as an active developer and 2 years as an entrepreneur, along with Eduardo Hyunjin Oh cofounded BajaInnoTech. He is the CEO of a hardware company yet his passion draws him to also have very active participation. On his spare time he enjoys making music, working out, being an active participant in the community and keeping close ties to his friends and family.</Typography>
+                            <Typography>
+                                Having a decade in the industry as an active developer and 2 years as an entrepreneur, along with Eduardo, Hyunjin Oh cofounded BajaInnoTech. He is the CEO of a hardware company yet his passion draws him to also have very active participation. On his spare time he enjoys making music, working out, being an active participant in the community and keeping close ties to his friends and family.
+                            </Typography>
                         </CardContent>
                     </Card>
                     <Card
@@ -106,7 +120,7 @@ function About() {
                             borderRadius: 2,
                             margin: 1,
                             flexGrow: 1,
-                            width: '30%',
+                            width: { md: '30%', xs: '100%' },
                         }}
                     >
                         <CardContent>
@@ -127,24 +141,34 @@ function About() {
                                 </IconButton>
                             </Box>
                             <Box sx={{ pl: 6 }}>
-                                <Typography gutterBottom sx={{color:"secondary.dark"}}>COO, QA & Automation Specialist</Typography>
+                                <Typography gutterBottom sx={{color:"secondary.dark"}}>
+                                    COO, QA & Automation Specialist
+                                </Typography>
                             </Box>
-                            <Typography>A dedicated software analyist with a decade of experience and a close professional and personal acquaintance of Eduardo and Hyunjin for more than half of that time. Victor likes to spend time in music, outdoors and pursuing projects that inspire him.</Typography>
+                            <Typography>
+                                A dedicated software analyst with a decade of experience and a close professional and personal acquaintance of Eduardo and Hyunjin for more than half of that time. Victor likes to spend time in music, outdoors and pursuing projects that inspire him.
+                            </Typography>
                         </CardContent>
                     </Card>
                 </Box>
             </Box>
-            <br />
-            <Box>
-                <Typography variant="h5" gutterBottom>Specialties</Typography>
-                <Typography>While we are constantly following the pulse of technological developments, we focus on fullstack JS/TS code development.</Typography>
+            <Box sx={{ display: 'flex', flexDirection: 'column', mt: 4 }}>
+                <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', mb: 1 }}>
+                    <Typography variant="h5">Specialties</Typography>
+                    <FontAwesomeIcon icon={faJs} fontSize={30} />
+                    <FontAwesomeIcon icon={faTypescript} fontSize={30} />
+                </Box>
+                <Typography variant="body1">
+                    While we are constantly following the pulse of technological developments, we focus on fullstack JS/TS code development.
+                </Typography>
             </Box>
-            <br />
-            <Box>
+            <Box sx={{ display: 'flex', flexDirection: 'column', mt: 4 }}>
                 <Typography variant="h5" gutterBottom>Open Source</Typography>
-                <Typography>We are thrilled about contributing back to the Open Source community. All our recreational endeavors are Open Source, while we are committed to open sourcing some of the tooling we develop.</Typography>
+                <Typography variant="body1">
+                    We are thrilled about contributing back to the Open Source community. All our recreational endeavors are Open Source, while we are committed to open sourcing some of the tooling we develop.
+                </Typography>
             </Box>
-        </>
+        </Container>
     );
 }
 
