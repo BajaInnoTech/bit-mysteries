@@ -1,4 +1,10 @@
-import { Box, Card, CardContent, CardMedia, Typography } from '@mui/material';
+import {
+    Box,
+    Card,
+    CardContent,
+    CardMedia,
+    Typography,
+} from '@mui/material';
 import DepthRangersPortrait from "../assets/images/DepthRangersMiniature.png";
 import FiresInTheCryptPortrait from "../assets/images/FiresInTheCryptPortrait.jpg";
 import Itchio from "../assets/images/itchio.svg";
