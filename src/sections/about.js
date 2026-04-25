@@ -184,7 +184,7 @@ function About() {
                                 </Typography>
                             </Box>
                             <Typography>
-                                Former Police Commander who holds a Tourist Resourt Administrator's degree. Miriam is a certified Lego Mindstorm Instructor who implemented her own custom technical English curricula for the Police, PROFEPA and SEMARNAT and oversaw the adoption of CONTPAQ by members of Condotel as its General Manager. She enjoys doing volunteering work, and is a PADI-Certified Master Scuba Diver.
+                                Former Police Commander, holds a Tourist Resourt Administrator's degree. Miriam is a certified Lego Mindstorm Instructor who implemented her own custom technical English curricula for the Police, PROFEPA and SEMARNAT and oversaw the adoption of Intuit's Quickbooks by members of Condotel as its General Manager. She enjoys doing volunteering work, and is a PADI-Certified Master Scuba Diver.
                             </Typography>
                         </CardContent>
                     </Card>
