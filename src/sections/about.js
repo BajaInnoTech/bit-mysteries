@@ -16,6 +16,7 @@ import { faJs } from '@fortawesome/free-brands-svg-icons';
 import { faTypescript } from '@fortawesome/free-brands-svg-icons';
 import eduardo from '../assets/images/eduardo.jpeg';
 import hyunjin from '../assets/images/hyunjin.jpeg';
+import miriam from '../assets/images/miriam.jpeg';
 import victor from '../assets/images/victor.jpeg';
 
 function About() {
@@ -150,6 +151,43 @@ function About() {
                             </Typography>
                         </CardContent>
                     </Card>
+                    <Card
+                        variant="outlined"
+                        sx={{
+                            border: `1px solid ${theme.palette.primary.main}`,
+                            borderRadius: 2,
+                            margin: 1,
+                            flexGrow: 1,
+                            width: { md: '30%', xs: '100%' },
+                        }}
+                    >
+                        <CardContent>
+                            <Box sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+                                <Avatar
+                                    sx={{ mr: 2 }}
+                                    alt="miriam"
+                                    src={miriam}
+                                />
+                                <Typography variant="h6">Miriam Casas Lopez</Typography>
+                                <IconButton
+                                    href="https://mx.linkedin.com/in/miriam-casas-l%C3%B3pez-07707b52?utm_source=share&utm_medium=member_mweb&utm_campaign=share_via&utm_content=profile"
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    aria-label="LinkedIn"
+                                >
+                                    <LinkedInIcon />
+                                </IconButton>
+                            </Box>
+                            <Box sx={{ pl: 6 }}>
+                                <Typography gutterBottom sx={{color:"secondary.dark"}}>
+                                    Org. Devevelopment, Outreach
+                                </Typography>
+                            </Box>
+                            <Typography>
+                                Former Police Commander who holds a Tourist Resourt Administrator's degree. Miriam is a certified Lego Mindstorm Instructor who implemented her own custom technical English curricula for the Police, PROFEPA and SEMARNAT and oversaw the adoption of CONTPAQ by members of Condotel as its General Manager. She enjoys doing volunteering work, and is a PADI-Certified Master Scuba Diver.
+                            </Typography>
+                        </CardContent>
+                    </Card>
                 </Box>
             </Box>
             <Box sx={{ display: 'flex', flexDirection: 'column', mt: 4 }}>
@@ -165,7 +203,7 @@ function About() {
             <Box sx={{ display: 'flex', flexDirection: 'column', mt: 4 }}>
                 <Typography variant="h5" gutterBottom>Open Source</Typography>
                 <Typography variant="body1">
-                    We are thrilled about contributing back to the Open Source community. All our recreational endeavors are Open Source, while we are committed to open sourcing some of the tooling we develop.
+                    We are thrilled about contributing back to the Open Source community. We are currently maintaining a Prisma Error library fork and all our recreational endeavors are Open Source. We are committed to open sourcing some of the tooling we develop and sharing the lessons we learn along the way.
                 </Typography>
             </Box>
         </Container>
