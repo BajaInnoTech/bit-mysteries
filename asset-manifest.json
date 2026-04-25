@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/bit-mysteries/static/js/main.07eabf41.js",
+    "main.js": "/bit-mysteries/static/js/main.55307a03.js",
     "static/media/DepthRangersMiniature.png": "/bit-mysteries/static/media/DepthRangersMiniature.1d195d497a96003dcb4d.png",
     "static/media/board.jpg": "/bit-mysteries/static/media/board.dabfdc2fdf6a38425ff5.jpg",
     "static/media/banner.png": "/bit-mysteries/static/media/banner.bb4af3a7edee9501c5d0.png",
@@ -14,9 +14,9 @@
     "static/media/favico.svg": "/bit-mysteries/static/media/favico.00aef987d548447af080780ae66f80b8.svg",
     "static/media/itchio.svg": "/bit-mysteries/static/media/itchio.e06a0771d940eea6757d930aaa5cffe2.svg",
     "index.html": "/bit-mysteries/index.html",
-    "main.07eabf41.js.map": "/bit-mysteries/static/js/main.07eabf41.js.map"
+    "main.55307a03.js.map": "/bit-mysteries/static/js/main.55307a03.js.map"
   },
   "entrypoints": [
-    "static/js/main.07eabf41.js"
+    "static/js/main.55307a03.js"
   ]
 }
