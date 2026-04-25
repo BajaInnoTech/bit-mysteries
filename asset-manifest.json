@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/bit-mysteries/static/js/main.e97c23ba.js",
+    "main.js": "/bit-mysteries/static/js/main.07eabf41.js",
     "static/media/DepthRangersMiniature.png": "/bit-mysteries/static/media/DepthRangersMiniature.1d195d497a96003dcb4d.png",
     "static/media/board.jpg": "/bit-mysteries/static/media/board.dabfdc2fdf6a38425ff5.jpg",
     "static/media/banner.png": "/bit-mysteries/static/media/banner.bb4af3a7edee9501c5d0.png",
@@ -9,13 +9,14 @@
     "static/media/hyunjin.jpeg": "/bit-mysteries/static/media/hyunjin.cb2e14617f252f8f5b14.jpeg",
     "static/media/victor.jpeg": "/bit-mysteries/static/media/victor.0ee9f2ce5fd64ecc44fa.jpeg",
     "static/media/bitLogoDetailed.svg": "/bit-mysteries/static/media/bitLogoDetailed.d550d17450b6885a6ae06ba4fd156138.svg",
+    "static/media/miriam.jpeg": "/bit-mysteries/static/media/miriam.3ad3411a66d54d838a85.jpeg",
     "static/media/TreasureOfAuralHallBetaCover.png": "/bit-mysteries/static/media/TreasureOfAuralHallBetaCover.7642184ad7f346821d35.png",
     "static/media/favico.svg": "/bit-mysteries/static/media/favico.00aef987d548447af080780ae66f80b8.svg",
     "static/media/itchio.svg": "/bit-mysteries/static/media/itchio.e06a0771d940eea6757d930aaa5cffe2.svg",
     "index.html": "/bit-mysteries/index.html",
-    "main.e97c23ba.js.map": "/bit-mysteries/static/js/main.e97c23ba.js.map"
+    "main.07eabf41.js.map": "/bit-mysteries/static/js/main.07eabf41.js.map"
   },
   "entrypoints": [
-    "static/js/main.e97c23ba.js"
+    "static/js/main.07eabf41.js"
   ]
 }
