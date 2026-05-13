@@ -42,7 +42,7 @@ function Games() {
                         <Box
                             color="primary.dark"
                             component="a"
-                            href="https://github.com/BajaInnoTech/hunt_for_the_treasure_of_aural_hall"
+                            href="https://bajainnotech.github.io/hunt_for_the_treasure_of_aural_hall/"
                             sx={{
                                 display:"flex",
                                 textDecoration: "none",
@@ -81,7 +81,7 @@ function Games() {
                     }}
                 >
                     <CardContent>
-                        <Box color="primary.dark" component="a" href="https://bajainnotech.github.io/depthrangers/DepthRangers.html" sx={{ display:"flex", textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
+                        <Box color="primary.dark" component="a" href="https://bajainnotech.github.io/depthrangers/" sx={{ display:"flex", textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
                             <CardMedia
                                 component="img"
                                 image={DepthRangersPortrait}
@@ -113,7 +113,7 @@ function Games() {
                     }}
                 >
                     <CardContent>
-                        <Box color="primary.dark" component="a" href="https://github.com/BajaInnoTech/fires-in-the-crypt-solo-play-options" sx={{ display:"flex", textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
+                        <Box color="primary.dark" component="a" href="https://bajainnotech.github.io/fires-in-the-crypt-solo-play-options/" sx={{ display:"flex", textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
                             <CardMedia
                                 component="img"
                                 image={FiresInTheCryptPortrait}

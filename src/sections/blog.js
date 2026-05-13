@@ -103,7 +103,7 @@ function Blog() {
                     }}
                 >
                     <CardContent>
-                        <Box color="primary.dark" component="a" href="https://bajainnotech.github.io/depthrangers/DepthRangers.html" sx={{ display:"flex", textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
+                        <Box color="primary.dark" component="a" href="https://github.com/BajaInnoTech/depthrangers" sx={{ display:"flex", textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
                             <CardMedia
                                 component="img"
                                 image={DepthRangersPortrait}
