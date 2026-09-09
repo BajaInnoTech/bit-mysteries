@@ -28,7 +28,7 @@ function About() {
                     About Us
                 </Typography>
                 <Typography variant="body2" fontSize={18} gutterBottom>
-                    BajaInnoTech was founded by Eduardo del Corral & Hyunjin Oh in 2026, from two years of entrepreneural experience and 9 years of professional collaboration. Victor Serrano Jumped onboard this project before we had finished cristalizing our vision.
+                    BajaInnoTech was founded by Eduardo del Corral & Hyunjin Oh in 2026, from two years of entrepreneural experience and 9 years of professional collaboration.
                 </Typography>
             </Box>
             <Box sx={{ mt: 4 }}>
